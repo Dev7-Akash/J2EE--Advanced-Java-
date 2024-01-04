@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Project01/src/com/nit/jdbc1/LobInsertionTest._Mysql.java&apos; to &apos;LobInsertionTest_Mysql.java&apos;" description="Rename resource &apos;LobInsertionTest._Mysql.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/nit/jdbc1/LobInsertionTest._Mysql.java" name="LobInsertionTest_Mysql.java" stamp="1684782023612" updateReferences="true"/>
+</session>

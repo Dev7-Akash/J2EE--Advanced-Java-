@@ -1,0 +1,10 @@
+package com.nit.jdbc2;
+
+public class Cs_ProcedureTest_Emp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+<h1 style='color:brown;text-align:center'>Html To Servlet Communication Using Javascript</h1>
+<!-- <h3 style='color:red;text-align:center'>Get Capital City By Selecting Country</h3>
+ -->
+<form action="capitalurl" method="POST" name="frm">
+Select Country Name ::<select name="country" onchange="sendRequest()">
+<option value="" selected>---Select---</option>
+<option value="0">India</option>
+<option value="1">USA</option>
+<option value="2">Australia</option>
+<option value="3">China</option>
+<option value="4">Bangladesh</option>
+<option value="5">Russia</option>
+</select>
+</form>
+
+<script language="javascript">
+function sendRequest(){
+	frm.submit();
+}
+
+</script>

@@ -1,0 +1,108 @@
+<h1 style="color:red;text-align:center">Customer Form</h1>
+<form action="customerurl" method="GET">
+<table align="center" bgcolor="aqua" color="white">
+<tr>
+<td>Customer Name::</td>
+<td><input type="text" name="cname"></td>
+</tr>
+<tr>
+<td>Customer DOB::</td>
+<td><input type="date" name="dob"></td>
+</tr>
+<tr>
+<td>Customer Age::</td>
+<td><input type="password" name="cage"></td>
+</tr>
+<tr>
+<td>Customer Email::</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<tr>
+<td>Mobile No::</td>
+<td><input type="tel" name="mobno"></td>
+</tr>
+<td>City::</td>
+<td><select name="city">
+<option value="" selected>--Select City--</option>
+<option value="Yavatmal">Yavatmal</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Surat">Surat</option>
+<option value="Banglore">Banglore</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Region::</td>
+<td><select name="rgn">
+<option value="" selected>--Select Region--</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Telangna">Telangna</option>
+<option value="Gujrat">Gujrat</option>
+<option value="Karnataka">Karnataka</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Customer Address::</td>
+<td><textarea name="caddrs" rows="3" cols="14"></textarea></td>
+</tr>
+<tr>
+<td>Zip Code::</td>
+<td><input type="text" name="zip"></td>
+</tr>
+<tr>
+<td>Gender::</td>
+<td><input type="radio" name="gender" value="M">Male &nbsp;&nbsp;
+    <input type="radio" name="gender" value="F" checked>Female
+</td>
+</tr>
+<tr>
+<td>Marital Status::</td>
+<td><input type="radio" name="ms" value="married">Married &nbsp;&nbsp;
+   <input type="radio" name="ms" value="unmarried">UnMarried &nbsp;&nbsp;
+</td>
+</tr>
+<tr>
+<td>Inventory List::</td>
+<td><select name="Inl" multiple>
+<option value="" selected >--Select Items--</option>
+<option value="Cookies">Cookies</option>
+<option value="Popcorn">Popcorn</option>
+<option value="Eggs">Eggs</option>
+<option value="Sugar">Sugar</option>
+<option value="Milk">Milk</option>
+<option value="Butter">Butter</option>
+<option value="Donuts">Donuts</option>
+<option value="Buns">Buns/Rolls</option>
+<option value="Soaps">Soaps</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Payment Mode::</td>
+<td><select name="pay">
+<option value="" selected>--Select Payment Mode--</option>
+<option value="Card">Debit/Credit Card</option>
+<option value="UPI">PhonePay/G-Pay</option>
+<option value="Cheque">Cheque</option>
+<option value="Cash">Cash</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>FeedBack Section::</td>
+<td><textarea name="fdbk" rows="3" cols="14"></textarea></td>
+</tr>
+<tr>
+<td><!-- <input type="submit" name="process Request"> -->
+<button type="submit"><img src="Images/submit.jpg" width="200" height="100"></button>
+</td>
+<td><!-- <input type="reset" name="cancel"> -->
+<button type="reset"><img src="Images/cancel.jpg" width="200" height="100"></button>
+</td>
+</tr>
+</table>
+</form>

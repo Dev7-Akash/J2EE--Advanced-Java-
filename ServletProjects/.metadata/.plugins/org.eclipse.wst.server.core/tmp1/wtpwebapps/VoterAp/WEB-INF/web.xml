@@ -1,0 +1,14 @@
+<web-app>
+ <display-name>VoterAp-HtmlToServletCommunicationUsingForms</display-name>
+  <welcome-file-list>
+    <welcome-file>input.html</welcome-file>
+  </welcome-file-list>
+   <servlet>
+<servlet-name>voting</servlet-name>
+<servlet-class>com.nt.servlet.CheckVotingEligibilityServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>voting</servlet-name>
+<url-pattern>/voterurl</url-pattern>
+</servlet-mapping>
+</web-app>

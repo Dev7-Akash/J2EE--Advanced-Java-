@@ -1,0 +1,13 @@
+<h1 style="color:red;text-align:center">Html To Servlet Communication Using Forms</h1>
+
+<script lang="javascript" src="JavaScript/validation.js"></script>
+
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+
+<form method="GET" action="bothurl" onsubmit="return validate(this)">
+Person Name::<input type="text" name="pname"><span id="pnameErr"></span><br>
+Person Address::<input type="text" name="paddrs"><span id="paddrsErr"></span><br>
+Person Age::<input type="text" name="page"><span id="pageErr"></span><br>
+<input type="hidden" name="vstatus" value="disabled">
+<input type="submit" value="CheckVotingEligibility">
+</form>
